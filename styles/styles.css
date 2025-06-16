@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+     font-family: "Roboto", sans-serif;
+}
+
+.header{
+    background-color:white;
+    margin-top: 10px;
+    z-index: 9999;
+}
+.Details{
+    width: 100%;
+    align-items: center;
+}
+.Details ul{
+    list-style: none;
+    margin-top: 5px;
+    display: flex;
+    gap: 22px;
+    justify-content: center;
+}
+.apple-icon{
+    width: 19px;
+}
+.search{
+    width: 19px;
+}
+.Group{
+    width: 12px;
+}
+.main{
+    width: 100%;
+    background-color:#1919dc;
+    height: 650px;
+    text-align: center;
+    padding-top: 10px;
+    background-image: url(/icons/iphone-family.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.main  h1{
+    margin-bottom: -20px;
+    font-size: 55px;
+}
+.main p{
+     font-size:25px ;
+}
+.botton{
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.blue{
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 500px;
+    display: flex;
+    background-color:#0071e3;
+    color: #f5f5f7;
+}
+.light-blue{
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 500px;
+    display: flex;
+    background-color: #f5f5f7; 
+    border-color:#0071e3;
+    border: solid;
+    color: #2f83d6;
+}
+.blue:hover{
+    cursor: pointer;
+    background-color: #509de9;
+}
+.light-blue:hover{
+    cursor: pointer;
+    background-color:#0071e3 ;
+    color: white;
+}
+.main h5{
+    text-align: center;
+    font-size: 19px;
+    background: -webkit-linear-gradient(356deg, #0090F7, #BA62FC, #F2416B, #F55600); 
+    background: linear-gradient(94deg, #0090F7, #BA62FC, #F2416B, #F55600);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+.image{
+    width: 100%;
+    
+}
+.image img{
+    width: 100%;
+}
+.second{
+    width: 100%;
+    height: 450px;
+    margin-top: 10px;
+    background-image:url(/icons/hero_iphone_tradein__fo4u4bki88ae_large_2x.jpg);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    padding-top: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+     
+}
+.trade-in{
+    height: 10%;
+    width: 10%;
+    margin-top: -250px;
+    
+}
+p{
+    text-align: center;
+    font-size: 26px;
+    margin-top: 10px;
+}
+span{
+    font-size: 19px;
+    color: #6e6e73;
+    margin-top: -15px;
+}
+.estimate{
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 500px;
+    display: flex;
+    background-color:#0071e3;
+    color: #f5f5f7;
+    margin-top: 10px;
+}
+.estimate:hover{
+    cursor: pointer;
+    background-color: #509de9;
+}
+    
+
